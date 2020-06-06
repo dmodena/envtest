@@ -1,0 +1,9 @@
+<form action="">
+  <label for="email">Email</label>
+  <input [(ngModel)]="userLoginDto.email" type="email" name="email" id="email">
+
+  <label for="password"></label>
+  <input [(ngModel)]="userLoginDto.password" type="password" name="password" id="password">
+
+  <button (click)="login()" type="submit">Login</button>
+</form>
